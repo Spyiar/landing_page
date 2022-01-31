@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-extra-small{
+    font-size: 14px;
+}
+.text-small{
+    font-size: 16px;
+}
+.text-medium{
+    font-size: 20px;
+}
+.text-big{
+    font-size: 40px;
+}
+.text-extra-big{
+    font-size: 50px;
+}
+.text-align-rigth{
+    text-align: end;
+}
+.text-align-left{
+    text-align: left;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-color-white{
+    color: white;
+}
+.text-color-black{
+    color: black;
+}
+.text-color-gray{
+    color: #B4B4B4;
+}
+.text-color-footer{
+    color: #3F3D56;
+}
+.button-medium{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.button-orange{
+    background-color: #FF9727;
+}
+.button-purple{
+    background-color: #8979E8;
+}
+.button-yellow{
+    background-color: #FFD671;
+}
+.space-tb{
+    padding: 30px 0;
+}
+.space-tb-small{
+    padding: 10px 0;
+}
+header{
+    background-color: #4252E8;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+.container-header{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 10px 0px;
+}
+.container-image{
+    width: 35%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container-image img{
+    width: 100px;
+    width: 100px;
+}
+.container-menu{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.menu-item{
+    padding: 10px 15px;
+}
+.hero{
+    padding-bottom: 200px;
+    padding-top: 170px;
+    background-size: cover;
+    background-image: url("/Applications/MAMP/htdocs/Courses/newLanding/img/Gradient1.jpg");
+    background-repeat: no-repeat;
+}
+.container-hero{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container-hero-image{
+    display: flex;
+    justify-content: end;
+}
+.hero-image{
+    width: 500px;
+    height: 450px;
+}
+.carousel{
+    padding: 50px 0;
+}
+.carousel-container{
+    position: relative;
+}
+.carousel-back{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 0;
+}
+.carousel-next{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    right: 0;
+    
+}
+.carousel-container button{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1;
+    border-color: #8979E8;
+    border-radius: 30px;
+    padding: 5px;
+}
+.carousel-container button i{
+    font-size: 30px;
+    color: #8979E8;
+    padding: 0 5px;
+}
+.container-people{
+    padding-bottom: 280px;
+}
+.people{
+    border-radius: 30px;
+    background-color: #4252E8;
+    height: 600px;
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.people-image{
+    position: relative;
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 80%;
+    justify-content: end;
+    padding-top: 40px;
+    padding-right: 30px;
+    position: relative;
+}
+.people-image img{
+    width: 100%;
+    z-index: 2;
+}
+.people-image::after{
+    content: '';
+    position: absolute;
+    background-color: tomato;
+    width: 77%;
+    height: 90%;
+    right: 0%;
+    z-index: 0;
+    top: 2%;
+    border-radius: 30px;
+} 
+.people a{
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.container-blog{    
+    background-image: url('file:///Applications/MAMP/htdocs/Courses/newLanding/img/Gradient2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 345px;
+}
+.blog-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
+    margin: 30px 30px;
+}
+.content-blog{
+    width: 304px;
+    padding: 10px 10px 30px 10px;
+    position: relative;
+}
+.blog-image{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.button-blog{
+    position: absolute;
+    position: absolute;
+    left: 31.5%;
+    top: 95%;
+}
+.slick-dots{
+    position: absolute;
+    bottom: -15%;
+    left: 44%;
+    list-style: none;
+}
+.slick-dots li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.slick-dots li button{
+    font-size: 0;
+    height: 13px;
+    width: 13px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #E2E2E2;
+}
+.slick-dots .slick-active button{
+    background-color: #FF9727 !important;
+}
+.test{
+    padding-top: 50px;
+}
+.test-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.test-content{
+    padding-top: 60px;
+}
+.container-test-buttons{
+    display: flex;
+    align-items: center;
+}
+.container-test-buttons a{
+    margin-right: 30px;
+}
+.test-image img{
+    width: 100%;
+}
+.footer{
+   background-image: url('file:///Applications/MAMP/htdocs/Courses/newLanding/img/Gradient_footer.png');
+   height: 700px;
+   display: flex;
+   align-items: end;
+   background-size: cover;
+   padding: 0px 30px 30px 30px;
+}
+.container-form{
+    padding-bottom: 150px;
+}
+.form{
+    position: relative;
+}
+.input-email{
+    width: 380px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #D2D2D2;
+}
+.input-email::placeholder{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.form-button{
+    position: absolute;
+    left: 305px;
+}
+.container-inf{
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+}
+.container-adress p{
+    line-height: 30px;
+}
+.container-networks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.networks{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.networks i{
+    margin: 20px;
+    font-size: 30px;
+}
