@@ -99,7 +99,7 @@ header{
     padding-bottom: 200px;
     padding-top: 170px;
     background-size: cover;
-    background-image: url("/Applications/MAMP/htdocs/Courses/newLanding/img/Gradient1.jpg");
+    background-image: url("img/Gradient1.jpg");
     background-repeat: no-repeat;
 }
 .container-hero{
