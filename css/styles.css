@@ -99,7 +99,7 @@ header{
     padding-bottom: 200px;
     padding-top: 170px;
     background-size: cover;
-    background-image: url("img/Gradient1.jpg");
+    background-image: url("https://github.com/Spyiar/landing_page/blob/4e2f6755fcac5c29ac0fbf989eea2adb22bfb570/img/Gradient1.jpg");
     background-repeat: no-repeat;
 }
 .container-hero{
@@ -187,7 +187,7 @@ header{
     padding-top: 30px;
 }
 .container-blog{    
-    background-image: url('file:///Applications/MAMP/htdocs/Courses/newLanding/img/Gradient2.png');
+    background-image: url('https://github.com/Spyiar/landing_page/blob/7d2ab287f8914af24b0cfeee74f1ffe5c91453c0/img/Gradient2.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -260,7 +260,7 @@ header{
     width: 100%;
 }
 .footer{
-   background-image: url('file:///Applications/MAMP/htdocs/Courses/newLanding/img/Gradient_footer.png');
+   background-image: url('https://github.com/Spyiar/landing_page/blob/7d2ab287f8914af24b0cfeee74f1ffe5c91453c0/img/Gradient_footer.png');
    height: 700px;
    display: flex;
    align-items: end;
