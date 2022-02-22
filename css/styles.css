@@ -36,6 +36,9 @@
 .text-color-gray{
     color: #B4B4B4;
 }
+.text-color-gray-dark{
+    color: #757171;
+}
 .text-color-footer{
     color: #3F3D56;
 }
@@ -44,6 +47,13 @@
     border-radius: 30px;
     border: 0;
     cursor: pointer;
+}
+.button-big{
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
 }
 .button-orange{
     background-color: #FF9727;
@@ -58,7 +68,7 @@
     padding: 30px 0;
 }
 .space-tb-small{
-    padding: 10px 0;
+    padding: 15px 0;
 }
 header{
     background-color: #4252E8;
@@ -194,29 +204,34 @@ header{
     padding-bottom: 345px;
 }
 .blog-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    background-color: #FAFAFA;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
-    margin: 30px 30px;
+    margin-right: 56px;
 }
 .content-blog{
-    width: 304px;
-    padding: 10px 10px 30px 10px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 15%);
+    margin: 5px 0px 35px 5px;
+    padding: 30px 25px 25px 25px;
     position: relative;
+    height: 380px;
 }
 .blog-image{
     width: 100%;
     padding-bottom: 10px;
 }
+.blog-tittle{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 0px;
+}
 .button-blog{
     position: absolute;
     position: absolute;
-    left: 31.5%;
-    top: 95%;
+    left: 0;
+    right: 0;
+    bottom: -22px;
+    margin: 0 auto;
+    width: 165px;
 }
 .slick-dots{
     position: absolute;
